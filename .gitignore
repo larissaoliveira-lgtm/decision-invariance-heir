@@ -1,0 +1,35 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build products and compiled HE runtime libraries
+build/
+cmake-build-*/
+*.so
+*.so.*
+*.o
+*.a
+
+# Large reproducibility archives should be GitHub Release assets, not git blobs
+*.zip
+*.tar
+*.tar.gz
+
+# Secrets / local credentials
+.env
+*.key
+*.pem
+*.p12
+
+# Local scratch
+scratch/
+tmp/

@@ -1,0 +1,970 @@
+{
+  "project_name": "decision-invariance-heir-v1-3",
+  "study_version": "1.3.0",
+  "study_mode": "PILOT",
+  "run_id": "20260917T190958494537Z",
+  "generated_utc": "2026-09-17T19:40:24.127435+00:00",
+  "manifest_excludes_itself": true,
+  "git_state": {
+    "available": false,
+    "commit": null,
+    "working_tree_clean": null
+  },
+  "entries": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 285,
+      "sha256": "cbe5798e15c917ecdaac154c64cd52c211f094ac838b9f1e5234c7e26a2bc0c7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2170,
+      "sha256": "b26c9cc9026278acdb33ec4323ffb996804637119c37163e5f0954d4df8c9ff7"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/CMakeLists.codegen_probe.txt",
+      "bytes": 2734,
+      "sha256": "1d08b46cf7165031eb96c098bb2db7b078c6fb4c5070fc499b4c26397aec585c"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/CMakeLists.runtime.txt",
+      "bytes": 2882,
+      "sha256": "b771d9c11d05691e4c977a9389be59e9c9688dee33807baae226544c11292ebd"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/affine_score.cpp",
+      "bytes": 43288,
+      "sha256": "d3baf5120fdb3eb6609e61165187b605ab5672e97ab944d10fa8c81ae69b169f"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/affine_score.h",
+      "bytes": 2352,
+      "sha256": "3142538c76dcc48199ae95d717bed6fc83079f2f0bccacb74e4fca7d5685fc9f"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/affine_score_input.mlir",
+      "bytes": 1149,
+      "sha256": "552d7c08ecb6805bf4980939e405121348ea0e6fa6e12e8cb29c342375a839d5"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/affine_score_lowering.log",
+      "bytes": 43257,
+      "sha256": "1029a50dd5f609ade92b084869b2bae09331713d9151f3c9477e53a0baeff595"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/affine_score_openfhe.mlir",
+      "bytes": 42946,
+      "sha256": "2f29c818619f7d4e3f15965fb1364225c591738ca6ea46c7633fc77ea0fc6812"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/affine_score_pilot",
+      "bytes": 507072,
+      "sha256": "156a930443368da7d54d666433abd7dd5c2e9bf0694385338e44696c4c5a6f7a"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/affine_score_pilot_main.cpp",
+      "bytes": 2502,
+      "sha256": "a43e6b3ef8efd3e1aa86fdf4f4c894f0198cae2efa465bace9ed34ae87688e50"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/all_repetitions_detail.csv",
+      "bytes": 68717,
+      "sha256": "e67666345bf723123af2671200d373353fb4d162b4eb53a2f2d7d803959e3817"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/boundary_stress_by_delta.csv",
+      "bytes": 1279,
+      "sha256": "702ea1ecf9a92e6f590fd8a3fec5b9939a2eff251c2032bff86318ff6e571309"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/boundary_stress_by_plausibility.csv",
+      "bytes": 273,
+      "sha256": "9b7f7496743158e7ce9f07bc4f48badcf83fd44f8f4140bf35e6eba9c7010e4a"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/boundary_stress_detail.csv",
+      "bytes": 47684,
+      "sha256": "94f74bfaf7c3c3a5cdc9164a860e0e8f0db64712a28ad9ae2ffcbc2230e4ed2b"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/boundary_stress_summary.json",
+      "bytes": 1139,
+      "sha256": "0e9d415462347b39edd1bcf60b2227e60e151286a31c84f7e69e39efd32512eb"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/calibration_boundary_cutoff_sensitivity.csv",
+      "bytes": 381,
+      "sha256": "f12e31a3c8d19bd1df1ed5561aaff91ea12cb0155421e0c14a515312ea78523e"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/calibration_policy_threshold_sensitivity.csv",
+      "bytes": 474,
+      "sha256": "159694808e1889290c1fb33daaabd2cd278c51fb5dd13e3202e40c5b4cd49b2b"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/cmake_codegen_build.log",
+      "bytes": 11283,
+      "sha256": "b165bca57a46aade48245ea8d8cb8d6f8699c0a24d75cd87f478b1e3701278ab"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/cmake_codegen_configure.log",
+      "bytes": 937,
+      "sha256": "b4a57d7039fa44822e10b034b725c11606b44b3da652af86312d06d8f4712eb2"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/cmake_runtime_build.log",
+      "bytes": 11480,
+      "sha256": "23aa16407081f4684f58ca39b65ce0f5fd5205ef21695e28ed20fd210e74c590"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/cmake_runtime_configure.log",
+      "bytes": 919,
+      "sha256": "4121e934d44c747f3acf9e9d5cc7f289fe70b445cfa72d8ec25ddf0c1f2792f1"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/compiler_parameter_evidence.json",
+      "bytes": 1148,
+      "sha256": "61ac41169908b92afea3985664bf76e1f6cd644f3dd167e453b6287979355b36"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/configuration_executed.json",
+      "bytes": 3782,
+      "sha256": "3b6dace81a16dde0ded479af343e3a193f5ebec3a7db713df3b7dac31bc24a67"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/emit_function_info.log",
+      "bytes": 389,
+      "sha256": "0a1e7308a1949eb54483f5d041d185d6ef0cf76138decc8f4b7bf54daa7ea2c8"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/emit_metadata.log",
+      "bytes": 389,
+      "sha256": "0a1e7308a1949eb54483f5d041d185d6ef0cf76138decc8f4b7bf54daa7ea2c8"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/emit_openfhe_cpp.log",
+      "bytes": 43501,
+      "sha256": "b27ced6ba4421b4fbdaeabff2e0287211d92115518fd999856fa5a081002cc0f"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/emit_openfhe_header.log",
+      "bytes": 2572,
+      "sha256": "a3d815b1e130849ff8a8b65403195944b5c0e8c63bb89eaf250933c40564a82a"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/generated_header_snapshot.txt",
+      "bytes": 2352,
+      "sha256": "3142538c76dcc48199ae95d717bed6fc83079f2f0bccacb74e4fca7d5685fc9f"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/openfhe_library_discovery.json",
+      "bytes": 460,
+      "sha256": "7b7ab6a70e7fb47cc0b47b346bb3fa367745a3e45f6c897794d1dd40c4d4a568"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/optional_heir_emitters.json",
+      "bytes": 139,
+      "sha256": "ad2c3c7f594bb9172117d824cd49e815c5d9d7a3a4e3ab101157396033fef798"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/per_repeat_metrics.csv",
+      "bytes": 2329,
+      "sha256": "ef5d21a136b45afb0ae9369c9baf2469dc0c07b6e505faa33d8289a52a86c562"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/pilot_ldd_before_execution.txt",
+      "bytes": 689,
+      "sha256": "f5a8fe3ce0f8114dec5823b772892c0ef2bbcdd66ac855d3740f86726558c397"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/repeated_decisions.json",
+      "bytes": 405,
+      "sha256": "97025ccf7290c73b970351f89f9dbc4ccfc3db0809f9f752840e005c59f5933e"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/repeated_score_summary.csv",
+      "bytes": 6883,
+      "sha256": "86efe3b246e1d886525d8cbfcf82d767ecb309797cf670d5a8a929380c952200"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_dependencies.txt",
+      "bytes": 689,
+      "sha256": "5c1eb60b54698949fe9bccdd328e844c42b55b9e4c9e40743736a343968293bc"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEbinfhe.so",
+      "bytes": 483360,
+      "sha256": "46d2f298c5418195746379969aed07faa339c62b4ef47633029adac4fd2ee718"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEbinfhe.so.1",
+      "bytes": 483360,
+      "sha256": "46d2f298c5418195746379969aed07faa339c62b4ef47633029adac4fd2ee718"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEbinfhe.so.1.4.2",
+      "bytes": 483360,
+      "sha256": "46d2f298c5418195746379969aed07faa339c62b4ef47633029adac4fd2ee718"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEcore.so",
+      "bytes": 2314664,
+      "sha256": "73e5c9f86a3a058e9da7799c7e0f5c17ee84ec3422af1122519173844d6d55dd"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEcore.so.1",
+      "bytes": 2314664,
+      "sha256": "73e5c9f86a3a058e9da7799c7e0f5c17ee84ec3422af1122519173844d6d55dd"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEcore.so.1.4.2",
+      "bytes": 2314664,
+      "sha256": "73e5c9f86a3a058e9da7799c7e0f5c17ee84ec3422af1122519173844d6d55dd"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEpke.so",
+      "bytes": 3656072,
+      "sha256": "374b04a3b4e2e0fe0c60d1cf32223fb1b2950f721a7508f450f0500fb44810dd"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEpke.so.1",
+      "bytes": 3656072,
+      "sha256": "374b04a3b4e2e0fe0c60d1cf32223fb1b2950f721a7508f450f0500fb44810dd"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_libs/libOPENFHEpke.so.1.4.2",
+      "bytes": 3656072,
+      "sha256": "374b04a3b4e2e0fe0c60d1cf32223fb1b2950f721a7508f450f0500fb44810dd"
+    },
+    {
+      "path": "artifacts/ckks_reduced_f50_s40/runtime_summary.json",
+      "bytes": 366,
+      "sha256": "22019c940d491ce0c26379d98b0d1c69b3ae391ebb8884370e39c6c76eb89847"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/CMakeLists.codegen_probe.txt",
+      "bytes": 2736,
+      "sha256": "9c1ff4ac6ff725757ac3e3be24b16050c5987dc2d6baf90d765f00437b3545ed"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/CMakeLists.runtime.txt",
+      "bytes": 2888,
+      "sha256": "1645445c2e0694059c8cb575f89eebdb6b906a324f797b8107915c950115f595"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/affine_score.cpp",
+      "bytes": 43288,
+      "sha256": "9b363ee784ab3f1cf6464a7cff990bf2ab781cf97cd5f5d48bbaa3cf4e94d1e3"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/affine_score.h",
+      "bytes": 2352,
+      "sha256": "3142538c76dcc48199ae95d717bed6fc83079f2f0bccacb74e4fca7d5685fc9f"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/affine_score_input.mlir",
+      "bytes": 1149,
+      "sha256": "552d7c08ecb6805bf4980939e405121348ea0e6fa6e12e8cb29c342375a839d5"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/affine_score_lowering.log",
+      "bytes": 43259,
+      "sha256": "53d64ab7a446d98e897be3ef8f47e6bb96cd6f489e5db530bac55014c838adca"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/affine_score_openfhe.mlir",
+      "bytes": 42946,
+      "sha256": "7ae95b17248c5d55315eec1de54010d36809986f5cd0d2d356a6c9aa7ace36ae"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/affine_score_pilot",
+      "bytes": 507072,
+      "sha256": "8ccfda3a1c60013fc90e337fddb5d655dcf28245d657dd5debe41e64911ead8a"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/affine_score_pilot_main.cpp",
+      "bytes": 2502,
+      "sha256": "a43e6b3ef8efd3e1aa86fdf4f4c894f0198cae2efa465bace9ed34ae87688e50"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/all_repetitions_detail.csv",
+      "bytes": 69396,
+      "sha256": "ef0e39eb492c46bae595953d4e48188695e82bc0635671f5f25de2e8d4f3b728"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/boundary_stress_by_delta.csv",
+      "bytes": 1281,
+      "sha256": "40b81e2e5cdb4295e96fa42c069c612d2743edc1663d049c5399b2120b96016a"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/boundary_stress_by_plausibility.csv",
+      "bytes": 271,
+      "sha256": "d3c588f2e135bb291142019ef06df9fde16687872faf7a5ef60de4d05708c771"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/boundary_stress_detail.csv",
+      "bytes": 47697,
+      "sha256": "2aede94d41a5c9569a0510076bcdeff5ec67a21736d53e12ac4329796af5726d"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/boundary_stress_summary.json",
+      "bytes": 1136,
+      "sha256": "c7228052639034d09e6e5758bb5f5345e39fe5b603dc5576283a7df9eedc70bf"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/calibration_boundary_cutoff_sensitivity.csv",
+      "bytes": 381,
+      "sha256": "f12e31a3c8d19bd1df1ed5561aaff91ea12cb0155421e0c14a515312ea78523e"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/calibration_policy_threshold_sensitivity.csv",
+      "bytes": 474,
+      "sha256": "159694808e1889290c1fb33daaabd2cd278c51fb5dd13e3202e40c5b4cd49b2b"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/cmake_codegen_build.log",
+      "bytes": 11357,
+      "sha256": "70fe266bc6168a67a30bab8c71c7d51c324cc8a0f34a741913c79c10f16a6e8f"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/cmake_codegen_configure.log",
+      "bytes": 943,
+      "sha256": "08940728a7bfe52f01b66982a24a413719b6432cbea550e174ed63c6203a3457"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/cmake_runtime_build.log",
+      "bytes": 11556,
+      "sha256": "e504e8b4f5cb9438b442aa816d5a8494806ef517d5c38ddc15f79586928b23f9"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/cmake_runtime_configure.log",
+      "bytes": 925,
+      "sha256": "aa8280b6185e7d48ee27ae7095d1a0973decec005247e9cb8b750ac21001108a"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/compiler_parameter_evidence.json",
+      "bytes": 1152,
+      "sha256": "b21cfb6282125326942e816de96d7a657bfdf0ffa46f7d9520f1bf9c9885bd0b"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/configuration_executed.json",
+      "bytes": 3841,
+      "sha256": "48d1caf895c468ab867962d5db101af453a704d6c856bcdb60869f0d40b02777"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/emit_function_info.log",
+      "bytes": 391,
+      "sha256": "b16ad4d90876030e0dce0ef8a45872da325af6302f53bbd5f8d4ffb26569125e"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/emit_metadata.log",
+      "bytes": 391,
+      "sha256": "b16ad4d90876030e0dce0ef8a45872da325af6302f53bbd5f8d4ffb26569125e"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/emit_openfhe_cpp.log",
+      "bytes": 43503,
+      "sha256": "62285c9a4bd3290f24d5eed86c04b6cda70b958eac64fbefaa2d300707aebdff"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/emit_openfhe_header.log",
+      "bytes": 2574,
+      "sha256": "221c7c33ea342b282661b8faade198677e2a36c6aeeccd6785ed55a6e4b6c027"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/generated_header_snapshot.txt",
+      "bytes": 2352,
+      "sha256": "3142538c76dcc48199ae95d717bed6fc83079f2f0bccacb74e4fca7d5685fc9f"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/openfhe_library_discovery.json",
+      "bytes": 460,
+      "sha256": "7b7ab6a70e7fb47cc0b47b346bb3fa367745a3e45f6c897794d1dd40c4d4a568"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/optional_heir_emitters.json",
+      "bytes": 139,
+      "sha256": "ad2c3c7f594bb9172117d824cd49e815c5d9d7a3a4e3ab101157396033fef798"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/per_repeat_metrics.csv",
+      "bytes": 2331,
+      "sha256": "abc686de289fbedb7d32b1e0be67e438b798ac38739d646dfe2b88f3f3fa8bb9"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/pilot_ldd_before_execution.txt",
+      "bytes": 689,
+      "sha256": "12fe78264e805e7ef8fd10ce22de3ea41b9d27d183e362b564df8a95455c7733"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/repeated_decisions.json",
+      "bytes": 404,
+      "sha256": "faf169dbb65ab0b2fcdc186103bd1af5099fe37a1180cd97c158924bb0e8f99f"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/repeated_score_summary.csv",
+      "bytes": 6877,
+      "sha256": "a4258520276955cf18fe9ab98691442fe13264f002150922f3f060d91eecae50"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_dependencies.txt",
+      "bytes": 689,
+      "sha256": "298983d2cdbc8ba5c3ceb0dfe18b4b22fc0064521a23838ff2abef9abfcfe054"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEbinfhe.so",
+      "bytes": 483360,
+      "sha256": "46d2f298c5418195746379969aed07faa339c62b4ef47633029adac4fd2ee718"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEbinfhe.so.1",
+      "bytes": 483360,
+      "sha256": "46d2f298c5418195746379969aed07faa339c62b4ef47633029adac4fd2ee718"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEbinfhe.so.1.4.2",
+      "bytes": 483360,
+      "sha256": "46d2f298c5418195746379969aed07faa339c62b4ef47633029adac4fd2ee718"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEcore.so",
+      "bytes": 2314664,
+      "sha256": "73e5c9f86a3a058e9da7799c7e0f5c17ee84ec3422af1122519173844d6d55dd"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEcore.so.1",
+      "bytes": 2314664,
+      "sha256": "73e5c9f86a3a058e9da7799c7e0f5c17ee84ec3422af1122519173844d6d55dd"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEcore.so.1.4.2",
+      "bytes": 2314664,
+      "sha256": "73e5c9f86a3a058e9da7799c7e0f5c17ee84ec3422af1122519173844d6d55dd"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEpke.so",
+      "bytes": 3656072,
+      "sha256": "374b04a3b4e2e0fe0c60d1cf32223fb1b2950f721a7508f450f0500fb44810dd"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEpke.so.1",
+      "bytes": 3656072,
+      "sha256": "374b04a3b4e2e0fe0c60d1cf32223fb1b2950f721a7508f450f0500fb44810dd"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_libs/libOPENFHEpke.so.1.4.2",
+      "bytes": 3656072,
+      "sha256": "374b04a3b4e2e0fe0c60d1cf32223fb1b2950f721a7508f450f0500fb44810dd"
+    },
+    {
+      "path": "artifacts/ckks_reference_f55_s45/runtime_summary.json",
+      "bytes": 387,
+      "sha256": "ce9887fdc66e85e9026392c8efdda9ea9371fde1c50736b39cc245ea4b747031"
+    },
+    {
+      "path": "data/boundary_stress_features.csv",
+      "bytes": 86744,
+      "sha256": "4a07473544bfc935e5a056a52afbfee61691537bdc06cf48f42bde763ce5f3a6"
+    },
+    {
+      "path": "data/boundary_stress_metadata.csv",
+      "bytes": 35332,
+      "sha256": "3032b8acb28ceab673eee33d8166b573d12e981760ba578169a0e04c18f558e9"
+    },
+    {
+      "path": "data/dataset_metadata.json",
+      "bytes": 1194,
+      "sha256": "1123b1ae50038654c588bff10bc0a18b632b579863295cced97942bad83b12f6"
+    },
+    {
+      "path": "data/split_indices.csv",
+      "bytes": 6964,
+      "sha256": "ac7727f197ace79de85e71ee8c8a24fc9b5b4c6b1b7f0bf20facaca7209732fd"
+    },
+    {
+      "path": "environment/apt_packages_20260917T190958494537Z.txt",
+      "bytes": 33491,
+      "sha256": "2ce49f067fa794e0ff276d3e94066bc512cefdf24f1b34b344b163aeb9148e75"
+    },
+    {
+      "path": "environment/ckks_capability_20260917T190958494537Z.json",
+      "bytes": 3430,
+      "sha256": "afabbf4cd9cb494ae7fc2e2b65ba2a79a8da659155212d8c43b667f44766964c"
+    },
+    {
+      "path": "environment/confirmatory_environment_provenance.json",
+      "bytes": 513,
+      "sha256": "a2340ca44adefe01f7bde4cd39207f5ae0a78b08b7083af7a6669ef29888901c"
+    },
+    {
+      "path": "environment/confirmatory_requirements.txt",
+      "bytes": 418,
+      "sha256": "8be39e60cedbab484f51e38821bf849e74db4af653951f30f3312d55c7d40d56"
+    },
+    {
+      "path": "environment/environment_20260917T190958494537Z.json",
+      "bytes": 1051,
+      "sha256": "d8627e99e69ad7e886107421aea790394bb9717ed5d9c048a4ae63d29faad8c2"
+    },
+    {
+      "path": "environment/git_state_20260917T190958494537Z.json",
+      "bytes": 72,
+      "sha256": "c3b32a2b57a16d8322a3560329a6e0143abf7824c3fe5b8259c3a50933d09b59"
+    },
+    {
+      "path": "environment/heir_openfhe_compatibility.json",
+      "bytes": 966,
+      "sha256": "d6e3b3707699529400a2d650acfba5e0b9ed8192cdb716a4debaf1fa0a0ee221"
+    },
+    {
+      "path": "environment/heir_tools_20260917T190958494537Z.json",
+      "bytes": 324,
+      "sha256": "6438684af82678ec10dac22be8efde6d644baf927f1d5fb57290840fd73ca819"
+    },
+    {
+      "path": "environment/openfhe_resolved_commit.txt",
+      "bytes": 41,
+      "sha256": "2d6adca7fd9f4d11175a58b6533538aa74df60d82c953c1d456593bcf73fe6a2"
+    },
+    {
+      "path": "environment/requirements.lock.txt",
+      "bytes": 12751,
+      "sha256": "a88a2d65f6d8fecc3f0f1e2c57ca5ce672a67a8ac26b26ce9d3b3eca0fe3e824"
+    },
+    {
+      "path": "figures/calibration_disagreement_sensitivity_20260917T190958494537Z.png",
+      "bytes": 155859,
+      "sha256": "696ad53903cd3679ae05cd05d95554ebc4713cd0006de43fb7f789f6a89b44c3"
+    },
+    {
+      "path": "figures/calibration_disagreement_sensitivity_20260917T190958494537Z.svg",
+      "bytes": 42804,
+      "sha256": "2294463db045827d4cc3540891de94daf1fc9a2fc6e494625e2f581e01f7d7ac"
+    },
+    {
+      "path": "figures/calibration_margin_vs_error_20260917T190958494537Z.png",
+      "bytes": 216382,
+      "sha256": "429d4c5416700412fb5bd69b1f0988ca31874184e8c11e9df1ef4739736330cb"
+    },
+    {
+      "path": "figures/calibration_margin_vs_error_20260917T190958494537Z.svg",
+      "bytes": 60256,
+      "sha256": "5aab39d1ff182cdb0b53e0426a7142e2ac283cf0290e14b83d380e75a366ffa4"
+    },
+    {
+      "path": "models/plaintext_affine_model.npz",
+      "bytes": 3774,
+      "sha256": "c4f1db76213c82add84453e5adc4d84c6affbaab9612fb3407ebc24eb105f29f"
+    },
+    {
+      "path": "models/plaintext_affine_model_metadata.json",
+      "bytes": 277,
+      "sha256": "995f5725f28d3d18051af286d1a0cec7dbb594932bf862e5a15deaee621e2ef0"
+    },
+    {
+      "path": "models/plaintext_logistic_regression.joblib",
+      "bytes": 3089,
+      "sha256": "4b90121e47bfc9a1eded0cd4663be931fec1fb727a51327f1fc57da5876dc765"
+    },
+    {
+      "path": "protocol/boundary_stress_plausibility.json",
+      "bytes": 403,
+      "sha256": "4aa86c2450f196a8e5005a1d687c122ebfcc526765d800f112f4b1dcf9cbf6ad"
+    },
+    {
+      "path": "protocol/confirmatory_freeze.json",
+      "bytes": 29674,
+      "sha256": "3b0347b70e8df2979b4371ee1fecd273d79f197c498d42afea526a0b2c11e45e"
+    },
+    {
+      "path": "protocol/confirmatory_freeze.sha256",
+      "bytes": 65,
+      "sha256": "c8f80c3f84f1c9cccab7e89972497ddb5ebd4abf413759b331c233e07602b977"
+    },
+    {
+      "path": "protocol/frozen_operational_policy.json",
+      "bytes": 507,
+      "sha256": "111eba8480d1850de36b04ebb42853518ebb3df1c3506a5382b541a0da01521e"
+    },
+    {
+      "path": "protocol/he_configuration_specs.json",
+      "bytes": 344,
+      "sha256": "7b0eac72e05c9ea530ee7e8dfa3ba733de183e1f632e3a9c8ef016930c049938"
+    },
+    {
+      "path": "protocol/he_configurations/ckks_reduced_f50_s40.json",
+      "bytes": 5495,
+      "sha256": "bda1a65eb8f27c7897d152861e325e647d6800f25a21b9dce830d12f9b964f84"
+    },
+    {
+      "path": "protocol/he_configurations/ckks_reference_f55_s45.json",
+      "bytes": 5571,
+      "sha256": "a8e51dd2317e88fa6c980e902da55fa9b853986aba1631d522ca622feecc7827"
+    },
+    {
+      "path": "protocol/protocol.json",
+      "bytes": 5889,
+      "sha256": "8512c720b2db99eb4d7a977dde81f429a58a289ea62fa04b5853795809f67c7f"
+    },
+    {
+      "path": "protocol/rare_event_planning.json",
+      "bytes": 490,
+      "sha256": "5683eab57e9cbc53de211fa30cd87886833c05b1850b2ec8982741df672ecdc2"
+    },
+    {
+      "path": "protocol/split_provenance.json",
+      "bytes": 788,
+      "sha256": "7e293df9aa32599ce6fc226e3874e035c5f1f1fcf2da6a3497e4eac2c5caab03"
+    },
+    {
+      "path": "results/calibration_simulated_sensitivity_detail_20260917T190958494537Z.csv",
+      "bytes": 103349,
+      "sha256": "9e445349a5962c9cb65b2e4d53d7e88c4ceb80356bfccfe648fb2e39c8aefbbb"
+    },
+    {
+      "path": "results/calibration_simulated_sensitivity_metrics_20260917T190958494537Z.csv",
+      "bytes": 3901,
+      "sha256": "aeb96dc85f928b4c44090d84aa6312cb71a885713e3cc7086629e2f776c1a97f"
+    },
+    {
+      "path": "results/ckks_reduced_f50_s40_bootstrap.json",
+      "bytes": 630,
+      "sha256": "c20218173341b324b8119d8067c7302c88c200346cff38e9ec2b591f923164ca"
+    },
+    {
+      "path": "results/ckks_reduced_f50_s40_detail.csv",
+      "bytes": 29683,
+      "sha256": "0ecf3da099a482f9005e72c95addd4a4b08554e5dfcd1bc30a574f650763f607"
+    },
+    {
+      "path": "results/ckks_reduced_f50_s40_metrics.csv",
+      "bytes": 2268,
+      "sha256": "b283f73cd5830803923ad3ff44ea054766b943ddf77562dd546c4f8af38e45c8"
+    },
+    {
+      "path": "results/ckks_reference_f55_s45_bootstrap.json",
+      "bytes": 633,
+      "sha256": "45b09dee7ec89bc4660115b760eb89f8ffea5c0bd0dd652bcfcf0785caf67b3d"
+    },
+    {
+      "path": "results/ckks_reference_f55_s45_detail.csv",
+      "bytes": 29883,
+      "sha256": "8520bfa76824b1ea8cd535c53d7b6a1f27229d3b167f53ff140e337683987d44"
+    },
+    {
+      "path": "results/ckks_reference_f55_s45_metrics.csv",
+      "bytes": 2288,
+      "sha256": "c8e62183fb601f3ec835d82ba9cde621e2b830f4af66b906e59ec76517e473a4"
+    },
+    {
+      "path": "results/pilot_real_he_configuration_summary.csv",
+      "bytes": 2979,
+      "sha256": "33d3f49138705d94c7977e419ff3ddab845117d7de9248345a0c3425bc04833e"
+    },
+    {
+      "path": "results/pilot_study_readiness.json",
+      "bytes": 554,
+      "sha256": "2dd17feeb051a6c03de7edb57436cffe38776eec2be8625a14d0f9a6a13a4eb5"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reduced_f50_s40/execution.json",
+      "bytes": 1922,
+      "sha256": "9a22679273be996471cdcdf7ccfad9e31a2d2a34d7a833e4593d698ef6781818"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reduced_f50_s40/inputs.txt",
+      "bytes": 70272,
+      "sha256": "e1d2f8b4a7390018c55a7829d7533a4416bbea1803d06e908218bc185ec744ee"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reduced_f50_s40/scores.csv",
+      "bytes": 26119,
+      "sha256": "bf341edb57be13ee175a1ae9aac8266dc7c63d28cdb41d72a332c1839c7cf66b"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reduced_f50_s40/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reduced_f50_s40/stdout.log",
+      "bytes": 37770,
+      "sha256": "1610e9c7b0dc9e181b4f9e33af07b74a0974abca7c064e584d7b11124fc54f69"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reference_f55_s45/execution.json",
+      "bytes": 1924,
+      "sha256": "b9988716756665d9b87fed02cea3ec74d5d924c5f1e50606265cf1c6a9db8fbe"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reference_f55_s45/inputs.txt",
+      "bytes": 70272,
+      "sha256": "e1d2f8b4a7390018c55a7829d7533a4416bbea1803d06e908218bc185ec744ee"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reference_f55_s45/scores.csv",
+      "bytes": 26041,
+      "sha256": "88de15b77385eaf2bd64383a508ab6627e4e19f3f8e84e0d524cee7392bf9b37"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reference_f55_s45/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/boundary_stress_executions/ckks_reference_f55_s45/stdout.log",
+      "bytes": 37993,
+      "sha256": "2c68a93b35c8e0b4037a72c60a946eef325c724b073a8331edd12a61ef0b8c8c"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/decision_invariance_unit_tests.json",
+      "bytes": 195,
+      "sha256": "66d74f582dd58eb654cdc98e4be673c246689eafa899e131212f56a7fa2f1fd6"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/heir_compiler_binary_preflight.json",
+      "bytes": 560,
+      "sha256": "e41c1d95c42f1a5f72358139ca6b8aa4f719a0171fc1b5d82c3a968d14e00d9e"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/integrity_self_tests.json",
+      "bytes": 190,
+      "sha256": "be684dba16973ba4e8d864ef8373055f061423a4d5a42009f8e188933f006542"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/apt_update.json",
+      "bytes": 303,
+      "sha256": "98f0da7c60ed247422122e23c491fe98e5c9920e46a3cae2a59d9955fe3d342b"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/apt_update.log",
+      "bytes": 189,
+      "sha256": "06c9322839309ecb298d9d37a70cf656e6d8d6f6a98e6898748c93fd94792630"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/build_openfhe.json",
+      "bytes": 349,
+      "sha256": "bd8f0b6a76676b03f6338a95eee67f2ff7ece8cda0312244853a2473638d459c"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/build_openfhe.log",
+      "bytes": 10203,
+      "sha256": "1ff65bbf0db138363ef36165bd517ec0ad0c4fa9faef4a0932d12bf89cd1a334"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/checkout_compatible_openfhe_release.json",
+      "bytes": 397,
+      "sha256": "4ef581516205b12311a934ec8813e1bda1743fdfe425fe18872a9670397dd29c"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/checkout_compatible_openfhe_release.log",
+      "bytes": 69,
+      "sha256": "cb29a5d6d3057313c189aa5f213331043529caae9b61134d50683d871f13bc1d"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/checkout_pinned_heir_commit.json",
+      "bytes": 406,
+      "sha256": "d64b77a21a0cb4116ce0365a71d1cb723851a19d6944aac510d1e302ce5ad01a"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/checkout_pinned_heir_commit.log",
+      "bytes": 81,
+      "sha256": "f5a4ef68209b62416f9b1b896a9e98a538e13710c6c9ed4f4fe8203389c5178c"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/clean_openfhe_worktree.json",
+      "bytes": 351,
+      "sha256": "7ad1cb2ec76dcae18a2014a45661c6f1b94142137215484a890d30297f0ba9bb"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/clean_openfhe_worktree.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/clone_heir_source.json",
+      "bytes": 397,
+      "sha256": "9f855d7db08368ec5a2305a678864f5f52de6dacf189f7b3506366345c0bb895"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/clone_heir_source.log",
+      "bytes": 3374,
+      "sha256": "6c3783a9153c78d8091e6ec44e84d5dbd5d764c24a751b1b0941a0b487cea365"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/clone_openfhe.json",
+      "bytes": 390,
+      "sha256": "96ab9a76bb89d5149ec6c4654d0dd38f1e61d8f43c2f67ec266da0067e0ea5a7"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/clone_openfhe.log",
+      "bytes": 47,
+      "sha256": "07aca770c52caa7afc6c09ee79d96754afc28a4e5e4f92e65b95eb1644f75cc1"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/configure_openfhe.json",
+      "bytes": 583,
+      "sha256": "0990efa57bf16e211b11c45c7f2dc6500c6f3f51c11e12a85deb8b2deb03d4aa"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/configure_openfhe.log",
+      "bytes": 3102,
+      "sha256": "03f4a36408a24ed5fd669c51a14bc378fd286b3427cf56321c637e77bceebed0"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/fetch_openfhe.json",
+      "bytes": 361,
+      "sha256": "880830ee30bce1387377ee1ec7fad5dd3331f684415c9ae9fb66089c73045952"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/fetch_openfhe.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/fetch_pinned_heir_commit.json",
+      "bytes": 395,
+      "sha256": "c3401d6ff50752f4f655a008695e9ef02d04884a20440717feb66d8fddb6d05d"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/fetch_pinned_heir_commit.log",
+      "bytes": 116,
+      "sha256": "b28b6f1c05199d74c4cb42b30bcb4f6b99e61123ce3d2fa02c2074bbb352929d"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/install_openfhe.json",
+      "bytes": 346,
+      "sha256": "47bb4ab0fffbd48f230b48f57283935ec168d24a5d47eb516278b6777107b338"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/install_openfhe.log",
+      "bytes": 28990,
+      "sha256": "87a02f0bbc83381d66c6aa02b168e39e1227ebb528520a28b4490581c616c622"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/install_python_dependencies.json",
+      "bytes": 589,
+      "sha256": "98a4318d35e4142c0427b5193486f55df7f62d0c0f78ed3dad5022581715383f"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/install_python_dependencies.log",
+      "bytes": 3880,
+      "sha256": "e7771686355b9d14289c93507cf6979180c389fcbd17adeece1058728ac5b1d7"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/install_system_build_dependencies.json",
+      "bytes": 425,
+      "sha256": "ababbb1722c5a2a024d899cf680c39fc185d9db805ee0d7ed06bdc60429191b9"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/install_system_build_dependencies.log",
+      "bytes": 2687,
+      "sha256": "421fa64d483224baf5515d534724cb41b74984e52b77fd632e1748baebc85c41"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/ldconfig_after_openfhe.json",
+      "bytes": 303,
+      "sha256": "3f5c04dde257c46be8dec2a2647c428ccc87b3848ce5fdaad93896b507dfba4f"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/ldconfig_after_openfhe.log",
+      "bytes": 1115,
+      "sha256": "ad87e0bb472e267b3ca9e7094884acce3ce07ad60f5455217b85b5a6652d542c"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/python_dependency_consistency_baseline.json",
+      "bytes": 266,
+      "sha256": "51f49f04062a5b0f0dd753d34185545da68e4a0e518b4835bd95aa0d69795aa7"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/python_dependency_consistency_baseline.log",
+      "bytes": 54,
+      "sha256": "0b309beb54aeed99626410b15e965c43f45f0d3a82d89e24d9a162251c81926e"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/python_dependency_consistency_check.json",
+      "bytes": 175,
+      "sha256": "f6c2694c42bf0d5933c2faa46bd351542a1c8e015743d35aeb34b70358942490"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/python_dependency_consistency_check.log",
+      "bytes": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/python_dependency_import_preflight.json",
+      "bytes": 1558,
+      "sha256": "1cbdde445554076ccd7decade4fbee4910cc45c8893120c20d50d7be5e215c86"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/python_dependency_import_preflight.log",
+      "bytes": 487,
+      "sha256": "e122c256c531de3b195a08ca794aa222ae002e6408c106206fa005de926b8d0f"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/reset_openfhe_worktree.json",
+      "bytes": 352,
+      "sha256": "4f49b43545a1dc1e29477731385d7905ad2acd87577669b60d2860fa0fbac3eb"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/logs/reset_openfhe_worktree.log",
+      "bytes": 68,
+      "sha256": "67a9ff1338e3d6835d0f49f09a3910a5a232c17161e47a74831d1ad3f4569141"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reduced_f50_s40/execution.json",
+      "bytes": 1201,
+      "sha256": "7b38db48c04e3d79866e75764bca75add63bd25234453fc27e3c86ffc43bf3e5"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reduced_f50_s40/inputs.txt",
+      "bytes": 55156,
+      "sha256": "9d8b85bbeb028ecc973d7466a7fc401a2c2cbf5bc674a45a0a986b0525712867"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reduced_f50_s40/scores.csv",
+      "bytes": 19012,
+      "sha256": "a84f4d2acc830d026a6f2c8e53cc1be7d3d685a21894a62769b31988913be485"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reduced_f50_s40/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reduced_f50_s40/stdout.log",
+      "bytes": 28063,
+      "sha256": "7f791f2e6275b9417e8b62cde64a88101cf9fe6d91b791efbb4374be11105a6a"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reference_f55_s45/execution.json",
+      "bytes": 1208,
+      "sha256": "aaea804dc73e0a3469033b51dc07ca2a501af28e0ef298b84eff1efb4003a89e"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reference_f55_s45/inputs.txt",
+      "bytes": 55156,
+      "sha256": "9d8b85bbeb028ecc973d7466a7fc401a2c2cbf5bc674a45a0a986b0525712867"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reference_f55_s45/scores.csv",
+      "bytes": 18925,
+      "sha256": "f6a7532bdd5259def65d89686b4b97408cfd48363eee366c697560cdc5f35fa8"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reference_f55_s45/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/pilot_executions/ckks_reference_f55_s45/stdout.log",
+      "bytes": 27926,
+      "sha256": "ca1ce8921480aaec9fa357e028054674560664222145e3d312f60fbf734f0b47"
+    },
+    {
+      "path": "runs/20260917T190958494537Z/run_metadata.json",
+      "bytes": 1300,
+      "sha256": "a1bf91f0ba4f7632ea0b4e19f713366a7ab64de3fe73fa4fc9de81036e77ee97"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the associated paper and repository release."
+title: "Decision Invariance under Homomorphic Inference"
+version: "1.3.0"
+authors:
+  - family-names: "Figueira"
+    given-names: "Larissa de Oliveira"
